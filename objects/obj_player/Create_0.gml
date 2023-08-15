@@ -37,10 +37,19 @@ joga_arma = function()
 	if (arma)
 	{
 		var _joga = keyboard_check_released(ord("G"));
-		if (_joga)
+		var _col;
+		
+		with(arma)
+		{
+			_col = place_meeting(x, y, obj_block);
+		}
+		
+		if (_joga && !_col)
 		{
 			arma.speed = 3;
 			arma.direction = arma.image_angle;
+			
+			arma.atirar = false;
 			arma = noone;
 		}
 	}

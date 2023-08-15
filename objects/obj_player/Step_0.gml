@@ -14,14 +14,17 @@ right = keyboard_check(ord("D"));
 show_debug_message(arma);
 
 
-if (up || down or left || right)
+//Verifica se alguma tecla de movimento está pressionada
+if (up ^^ down or left ^^ right)
 {
+	//Calcula a direção do movimento com base nas teclas pressionadas
 	move_dir = point_direction(0, 0, (right-left), (down-up));
 	vel = max_vel;
 	//vel = lerp(vel, max_vel, 0.1);
 }
 else
 {
+	//Reduz gradualmente a velocidade quando nenhuma tecla de movimento é pressionada
 	vel = lerp(vel, 0, 0.1);
 }
 

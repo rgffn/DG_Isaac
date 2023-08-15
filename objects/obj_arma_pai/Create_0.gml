@@ -29,5 +29,11 @@ atirando = function()
 		}
 	}
 }
-
-
+ 
+quica_parede = function()
+{
+	if(place_meeting(x + hspeed, y, obj_block)) hspeed *= -1;
+	
+	if(place_meeting(x, y + vspeed, obj_block)) vspeed *= -1;
+	
+}
