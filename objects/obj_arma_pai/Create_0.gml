@@ -9,11 +9,13 @@ atirar = false;
 
 delay_tiro = 0;
 
+pai = noone;
+
 atirando = function()
 {
+	delay_tiro--;
 	if(atirar)
 	{
-		delay_tiro--;
 		if (delay_tiro <= 0)
 		{
 			delay_tiro = espera_tiro * room_speed;
@@ -26,6 +28,18 @@ atirando = function()
 			_tiro.speed = velocidade;
 			
 			_tiro.direction = image_angle;
+			
+			
+			if (pai)
+			{
+				
+				
+				var _velh = lengthdir_x(knockback, image_angle);
+				var _velv = lengthdir_y(knockback, image_angle);
+				
+				pai.velh -= _velh;
+				pai.velv -= _velv;
+			}
 		}
 	}
 }
