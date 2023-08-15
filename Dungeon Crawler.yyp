@@ -48,6 +48,7 @@
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_cajado_verde","path":"sprites/spr_cajado_verde/spr_cajado_verde.yy",},},
+    {"id":{"name":"obj_cajado_verde","path":"objects/obj_cajado_verde/obj_cajado_verde.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

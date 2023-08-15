@@ -31,3 +31,17 @@ usa_arma = function()
 		
 	}
 }
+
+joga_arma = function()
+{
+	if (arma)
+	{
+		var _joga = keyboard_check_released(ord("G"));
+		if (_joga)
+		{
+			arma.speed = 3;
+			arma.direction = arma.image_angle;
+			arma = noone;
+		}
+	}
+}
