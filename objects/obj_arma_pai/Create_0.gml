@@ -5,13 +5,12 @@ image_yscale = 0.5;
 
 
 
-atirar = true;
+atirar = false;
 
 delay_tiro = 0;
 
 atirando = function()
 {
-	image_angle = point_direction(x, y, mouse_x, mouse_y);
 	if(atirar)
 	{
 		delay_tiro--;

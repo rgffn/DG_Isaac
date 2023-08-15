@@ -22,6 +22,8 @@
   "ResourceOrderSettings": [
     {"name":"obj_block","order":1,"path":"objects/obj_block/obj_block.yy",},
     {"name":"obj_tiro","order":2,"path":"objects/obj_tiro/obj_tiro.yy",},
+    {"name":"obj_cajado_vermelho","order":1,"path":"objects/obj_cajado_vermelho/obj_cajado_vermelho.yy",},
+    {"name":"spr_cajado_vermelho","order":1,"path":"sprites/spr_cajado_vermelho/spr_cajado_vermelho.yy",},
     {"name":"spr_tiro","order":2,"path":"sprites/spr_tiro/spr_tiro.yy",},
     {"name":"spr_block","order":1,"path":"sprites/spr_block/spr_block.yy",},
   ],
