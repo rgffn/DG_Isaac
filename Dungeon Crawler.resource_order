@@ -18,14 +18,18 @@
     {"name":"Player","order":3,"path":"folders/Sprites/Player.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Projeteis","order":5,"path":"folders/Sprites/Projeteis.yy",},
+    {"name":"Projeteis","order":5,"path":"folders/Objects/Projeteis.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_block","order":1,"path":"objects/obj_block/obj_block.yy",},
     {"name":"obj_tiro","order":2,"path":"objects/obj_tiro/obj_tiro.yy",},
     {"name":"obj_cajado_vermelho","order":1,"path":"objects/obj_cajado_vermelho/obj_cajado_vermelho.yy",},
+    {"name":"spr_cajado_axe","order":2,"path":"sprites/spr_cajado_axe/spr_cajado_axe.yy",},
     {"name":"spr_cajado_vermelho","order":1,"path":"sprites/spr_cajado_vermelho/spr_cajado_vermelho.yy",},
     {"name":"spr_tiro","order":2,"path":"sprites/spr_tiro/spr_tiro.yy",},
     {"name":"spr_block","order":1,"path":"sprites/spr_block/spr_block.yy",},
     {"name":"obj_cajado_verde","order":3,"path":"objects/obj_cajado_verde/obj_cajado_verde.yy",},
+    {"name":"obj_cajado_axe","order":4,"path":"objects/obj_cajado_axe/obj_cajado_axe.yy",},
   ],
 }

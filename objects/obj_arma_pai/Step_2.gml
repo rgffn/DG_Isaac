@@ -2,6 +2,8 @@
 
 atirando();
 
+if (delay_pega > 0) delay_pega--;
+
 if (speed > 0)
 {
 	quica_parede();

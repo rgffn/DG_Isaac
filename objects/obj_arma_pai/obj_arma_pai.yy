@@ -28,12 +28,13 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"velocidade","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":5.0,"rangeMin":0.1,"value":"1","varType":0,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"espera_tiro","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":2.0,"rangeMin":0.1,"value":"0.5","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"velocidade","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":5.0,"rangeMin":0.1,"value":"3","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"espera_tiro","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":2.0,"rangeMin":0.1,"value":"0.4","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"tiro","filters":[
         "GMObject",
       ],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"obj_tiro","varType":5,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"knockback","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":20.0,"rangeMin":0.0,"value":"11.4","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"knockback","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":20.0,"rangeMin":0.0,"value":"8","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"imprecisao","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":50.0,"rangeMin":0.0,"value":"0","varType":0,},
   ],
   "solid": false,
   "spriteId": {

@@ -50,6 +50,11 @@ joga_arma = function()
 			arma.direction = arma.image_angle;
 			
 			arma.atirar = false;
+			
+			arma.pai = noone;
+			
+			arma.delay_pega = room_speed * 2;
+			
 			arma = noone;
 		}
 	}
