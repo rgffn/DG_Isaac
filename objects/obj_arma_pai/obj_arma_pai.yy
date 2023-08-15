@@ -35,6 +35,7 @@
       ],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"obj_tiro","varType":5,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"knockback","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":20.0,"rangeMin":0.0,"value":"8","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"imprecisao","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":50.0,"rangeMin":0.0,"value":"0","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"qtd","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"1","varType":1,},
   ],
   "solid": false,
   "spriteId": {
